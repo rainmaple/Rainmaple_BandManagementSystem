@@ -1,0 +1,103 @@
+
+
+body {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
+	font-size: 100%;
+	background: #ffffff;
+	overflow-x:hidden;
+}
+/* ------------------------------- Slider Styles ------------------------------- */
+
+#fwslider {
+    position: relative;
+    width:100%;
+}
+
+#fwslider .slide {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    width:100%;
+}
+
+#fwslider .slide img {
+    width:100%;
+}
+
+#fwslider .slidePrev {
+    background:#ddd;
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:50%;
+    left:-50px;
+    opacity:0.5;
+    z-index: 10;
+}
+
+#fwslider .slidePrev span {
+	background-image: url("../img/arrows.png");
+	width: 45px;
+	height: 45px;
+	float: left;
+	background-position: -10% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#fwslider .slideNext {
+    background:#ddd;
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:50%;
+    right:-50px;
+    opacity:0.5;
+    z-index: 10;
+}
+
+#fwslider .slideNext span {
+    background-image:url("../img/arrows.png");
+    width:45px;
+    height:45px;
+    float:left;
+    background-position:90% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#fwslider .timers {
+    position: absolute;
+    bottom:15px;
+    right:0;
+    z-index: 3;
+}
+#fwslider .timer {
+    height:4px;
+    width:40px;
+    background-color: #000;
+    float:left;
+    margin-right: 10px;
+}
+#fwslider .progress {
+    height:4px;
+    width:0%;
+    background-color: #FC3;
+    float:left;
+}
+
+/* ------------------------------- 4. Media Query Max Width 1300, Min Width 720 ------------------------------- */
+@media only screen and (min-width:720px) and (max-width: 1300px) {
+
+    #fwslider .title { font-size:26px; }
+
+}
+
+/* ------------------------------- 5. Media Query Max Width 719 ------------------------------- */
+
+@media only screen and (max-width:719px) {
+
+    #fwslider .timers { display:none; }
+
+}

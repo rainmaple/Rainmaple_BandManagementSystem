@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+	ul#tab li:last-child{
+		border-right: none;
+	}
+		
+	.container{
+		width:90%;
+		margin:2% auto 0;
+		overflow: hidden;
+		position:relative;
+		left:0;
+	}
+	.menu_title{
+		border:none;
+	}
+	.menu ul li{
+		width:49.5%;
+		float:left;
+		border-top:1px solid #ccc;
+		border-right:1px solid #ccc;
+	}
+	.menu li a{
+		padding:3% 0;
+		font-size:1.3em;
+	}
+	
+	.menu_title{
+		display:none;
+		border:none;
+	}
+	.menu_culture ul li{
+		width:49.5%;
+		float:left;
+		border-top:1px solid #ccc;
+		border-right:1px solid #ccc;
+	}
+	.menu_culture li a{
+		padding:2% 0;
+		font-size:1.3em;
+	}
+	
+	.left{
+		width:100%;
+	}
+	.right{
+		width:100%;
+		margin-left:0;
+	}
+	.book{
+		max-width:90%;
+	
+	}
+	.menu_plan ul li{
+		width:24.5%;
+		float:left;
+		border-top:1px solid #ccc;
+		border-right:1px solid #ccc;
+	}
+	.menu_plan li a{
+		padding:3% 0;
+		font-size:1.3em;
+	}
+	.map{
+		margin:2% auto;
+		text-align:center;
+	}
+	table{
+		width:100%;
+		}
+	table td{
+		vertical-align: middle;
+	}
+	.location{
+		width:99%;
+		margin: 2% 0;
+	}
+	.location1{
+		width:99%;
+	}
+
+	.footer{
+		width:100%;
+		position:relative;
+		left:0;
+		margin-left:0;
+		padding:8px 0 15px 0;
+	}
+	.explorePane { 
+		width: 45%; 
+		float: left; 
+		padding: 1%; 
+		text-align: center; 
+		text-decoration:none; 
+	}
+	.explorePane1 { 
+		width: 31%; 
+		float: left; 
+		padding: 1%; 
+		text-align: center; 
+		text-decoration:none; 
+	}
+	.contact{
+		width:100%;
+		margin:80px auto 40px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	
+}
+@media only screen and (max-width: 640px){
+	.container{
+		width:95%;
+		margin:2% auto 0;
+		overflow: hidden;
+	}
+
+	.left{
+		width:100%;
+	}
+	.right{
+		width:100%;
+		margin-left:0;
+	}
+	.map{
+		margin:2% auto;
+	}
+	.gulid{
+		width:90%;
+		position:relative;
+		left:0;
+		margin:0;
+		padding:2% 0x;
+	}
+	
+	.gulid p{
+		text-align:center;
+	}
+	.explorePane { 
+		width: 90%; 
+		float: left; 
+		padding: 1%; 
+		text-align: center; 
+		text-decoration:none; 
+	}
+	.explorePane1 { 
+		width: 45%; 
+		float: left; 
+		padding: 1%; 
+		text-align: center; 
+		text-decoration:none; 
+	}
+	
+}
+@media only screen and (max-width: 480px) {
+	.container{
+		width:95%;
+		margin:2% auto 0;
+		overflow: hidden;
+	}
+
+	.left{
+		width:100%;
+	}
+	.right{
+		width:100%;
+		margin-left:0;
+	}
+	.location span{
+		display: none;
+	}
+	.brief{
+		font-size: 1.5em;
+		text-align:center;
+	}
+	.map{
+		margin:2% auto;
+	}
+	.gulid{
+		width:90%;
+		position:relative;
+		left:0;
+		margin:0;
+		padding:2% 2%;
+	}
+	.location1 span{
+		display: none;
+	}
+	.explorePane1 { 
+		width: 90%; 
+		float: left; 
+		padding: 1%; 
+		text-align: center; 
+		text-decoration:none; 
+	}
+	.ggwz_button{
+		margin-left: 25%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.container{
+		width:95%;
+		margin:2% auto 0;
+		overflow: hidden;
+	}
+	.left{
+		width:100%;
+	}
+	.right{
+		width:100%;
+		margin-left:0;
+	}
+}

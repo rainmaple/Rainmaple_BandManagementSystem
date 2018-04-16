@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{
+	max-width:100%;
+	}
+/*二级页样式*/
+.second_banner{
+	text-align:center;
+	background:url(../img/bg2.jpg) repeat-x;
+}
+
+.second_banner_img{
+	width:1024px;
+	heigth:293px;
+	position:relative;
+	left:50%;
+	margin-left:-512px;
+}
+.container{
+	width:1024px;
+	position:relative;
+	left:50%;
+	margin-left:-512px;
+	margin-top:35px;
+	overflow: hidden;
+}
+.left{
+	float:left;
+	}
+.menu li{
+	width:187px;
+	border-bottom:1px solid #ccc;
+	line-height:42px;
+	text-align:center;
+	vertical-align:middle;
+	}
+.menu li a{
+	color:#333;
+	font-size:16px;
+	display:block;
+	}
+.menu li a:hover{
+	background:#2166a9;
+	color:#fff;
+}
+.menu_title{
+	width:145px;
+	height:55px;
+	border-bottom:1px solid #ccc;
+	color:#2166a9;
+	font-size:24px;
+	background:url(../img/icon.png) no-repeat 10px;
+	padding-left:42px;
+}
+.menu_title span{
+	font-size:12px; 
+	color:#333;
+}
+#tab li.active a{
+	background: #2166a9;
+	text-decoration: none;
+	color: #fff;
+	font-size:16px; 	
+	display:block;	
+}
+
+.menu_culture li{
+	width:187px;
+	border-bottom:1px solid #ccc;
+	line-height:42px;
+	text-align:center;
+	vertical-align:middle;
+	}
+.menu_culture li a{
+	color:#333;
+	font-size:16px;
+	display:block;
+	}
+.menu_culture li a:hover{
+	background:#2166a9;
+	color:#fff;
+}
+.menu_plan li{
+	width:187px;
+	border-bottom:1px solid #ccc;
+	line-height:42px;
+	text-align:center;
+	vertical-align:middle;
+	}
+.menu_plan li a{
+	color:#333;
+	font-size:16px;
+	display:block;
+	}
+.menu_plan li a:hover{
+	background:#2166a9;
+	color:#fff;
+}
+
+
+
+.location{
+	width:795px;
+	height:42px;
+	float:left;
+	border-bottom:5px solid #d3d3d3;
+}
+.location span{
+	float:right;
+	line-height:45px;
+	font-size:14px;
+}
+.location a {
+	color:#333;
+	
+	}
+.location a:hover {
+	color:#2166a9;
+}
+/*合作伙伴和核心竞争优势*/
+.location1{
+	width:1024px;
+	height:42px;
+	float:left;
+	border-bottom:5px solid #d3d3d3;
+}
+.location1 span{
+	float:right;
+	line-height:45px;
+	font-size:14px;
+}
+.location1 a {
+	color:#333;
+	
+	}
+.location1 a:hover {
+	color:#2166a9;
+}
+.brief{
+	border-bottom:5px solid #2166a9;
+	line-height:42px;
+	color:#2166a9;
+	font-size:28px;
+	width:112px;
+	float:left;
+}
+
+p{	
+	text-indent:34px;
+	font-size:16px;
+	text-align:justify;/*firefox*/
+	text-justify:inter-ideograph;/*ie*/
+	-ms-text-justify: inter-ideograph;
+}
+.right{
+	width:795px;
+	margin-left:40px;
+	float:left;
+}
+.mr_30{
+	margin-right:30px;
+}
+.mt_38{
+	margin-top:38px;
+}
+.bottom{
+	margin-top:50px;
+	background:#2c3947;
+}
+.gulid p{
+	color:#fff;
+	font-size:14px;
+}
+
+.width_170{
+	width:170px;
+}
+
+.dis-n{ 
+	display: none;
+}
+
+/*立即上传简历按钮*/
+.ggwz_button{
+    background:#2166a9;
+    width:177px;
+    height:41px;
+	color:#fff;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+    text-align:center;
+    position: relative;
+	margin: 50px 0 0 35%;
+	line-height:40px;
+	border-radius: 5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+} 
+.ggwz_button a{
+	color:#fff;
+	}
+
+/*招聘表格*/
+table {
+	width:770px;
+	text-align:center;
+	margin:20px;
+	color:#333;
+}
+
+table td{
+    border: 1px solid #e9e9e9;
+}
+.tt_bg{
+	background:#2166a9;
+	color:#fff;
+}
+.contact{
+	width:758px;
+	margin:80px auto 40px;
+	
+}
+.contact td{
+	border: 1px solid #e9e9e9;
+}
+.ct_bg{
+	background:#f8f8f8;
+}
+
+
+
+h1{
+	text-align:center;
+}
+h2{
+	font-size:18px;
+}
+
+.bullet-span-300 {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 30px;
+}
+.c_content{
+	width:1024px; 
+	float:left;
+}
+.content_main{
+	 font-size:14px; 
+	 line-height:36px; 
+	 margin:2% 0;
+}
+
+/*资质证书和职工之家*/
+.exploreSiteFullPane a{ 
+	text-decoration:none;
+}
+.exploreSiteFullPane { 
+	padding: 5px; margin-top:20px;
+}
+.explorePane { 
+	width: 48%; 
+	float: left; 
+	padding: 1%; 
+	text-align: center; 
+	text-decoration:none; 
+}
+.explorePane.middle { 
+	border-left: 1px solid #DDD; 
+	border-right: 1px solid #DDD; 
+}
+.explorePane:active .i-pane, .explorePane:focus .i-pane, .explorePane:hover .i-pane, .explorePane.active .i-pane { 
+	background-color: #233241; 
+}
+
+.explorePane1 { 
+	width: 31%; 
+	float: left; 
+	padding: 1%; 
+	text-align: center; 
+	text-decoration:none; 
+}
