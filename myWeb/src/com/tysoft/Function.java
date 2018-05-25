@@ -244,6 +244,9 @@ public class Function {
 			Conn.close();
 			return true;
 		} catch (SQLException e) {
+		}finally{
+		        stmt.close();
+			Conn.close();
 		}
 		return false;
 	}
